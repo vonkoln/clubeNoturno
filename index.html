@@ -1,66 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Clube Noturno</title>
-
-<style>
-    body{
-        display: flex;
-        justify-content: center;
-    }
-    #card{
-        display: flex;
-        justify-content: center;
-        transform-style: preserve-3d;
-        transition: all .5s;
-    }
-    .face{
-        width: 100px;
-        height: 100px;
-        background-color: brown;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        position: absolute;
-        border-radius: 10px;
-    }
-    #front{
-        background-color: rgb(0, 135, 212);
-        transform: rotateY(180deg);
-    }
-    #back{
-        background-color: rgb(0, 56, 88);
-    }
-    .flip{
-        transform: rotateY(180deg);
-    }
-</style>
+    <title>Clube Noturno</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8"/>
 </head>
 <body>
-
-
-    <div class="flip" id="card">
-        <div class="face" id="front">
-            FRONT
-        </div>
-        <div class="face" id="back">
-            BACK
-        </div>
-    </div>
-
-<script>
-    const card = document.querySelector("#card")
-    card.addEventListener("click", (e)=>{
-        card.classList.toggle("flip")
-
-    })
-</script>
-
-
-
-
+    <a href="#" style="--clr:#1e9bff"><span>Clube Noturno</span><i></i></a>
+    <a href="#" style="--clr:#ff1867"><span>Poker em Aldeias do Lago</span><i></i></a>
+    <a href="#" style="--clr:#6eff3e"><span>Site em construção.. &#128296;</span><i></i></a>
 </body>
 </html>
