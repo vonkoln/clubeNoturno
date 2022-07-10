@@ -10,18 +10,39 @@
         display: flex;
         justify-content: center;
     }
+    #card{
+        display: flex;
+        justify-content: center;
+        transform-style: preserve-3d;´
+        transition: all .5s;
+    }
     .face{
         width: 100px;
         height: 100px;
-        
-
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        position: absolute;
+        border-radius: 10px;
+    }
+    #front{
+        background-color: rgb(0, 135, 212);
+        transform: rotateY(180deg);
+    }
+    #back{
+        background-color: rgb(0, 56, 88);
+    }
+    .flip{
+        transform: rotateY(180deg);
     }
 </style>
 </head>
 <body>
 
 
-    <div id="card">
+    <div class="flip" id="card">
         <div class="face" id="front">
             FRONT
         </div>
@@ -29,6 +50,17 @@
             BACK
         </div>
     </div>
+
+<script>
+    const card = document.querySelector("#card")
+    card.addEventListener("click", (e)=>{
+        card.classList.toggle("flip")
+
+    })
+</script>
+
+
+
 
 </body>
 </html>
