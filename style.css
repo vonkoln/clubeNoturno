@@ -2,7 +2,7 @@
 *
 {
     margin: 0;
-    padding: 5px 10px;
+    padding: 5px 35px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -14,7 +14,7 @@ body
     min-height: 100vh;
     background: #27282c;
     flex-direction: column;
-    gap: 60px;
+    gap: 35px;
 }
 a
 {
