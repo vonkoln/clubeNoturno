@@ -27,7 +27,7 @@ function openInNewTab(url) {
  })
 
 list[1].addEventListener('click', function(event) {
-    window.open('https://chat.whatsapp.com/CoSy4DQpMtCDWEgoGRHTR7')
+   // window.open('https://chat.whatsapp.com/CoSy4DQpMtCDWEgoGRHTR7')
 })
 
 list[2].addEventListener('click', function(event) {
