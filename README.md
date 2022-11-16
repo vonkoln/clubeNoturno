@@ -1,2 +1,2 @@
-Menu Clube Noturno
+Clube Noturno
 Aqui o dealer joga
