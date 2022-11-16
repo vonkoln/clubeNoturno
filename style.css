@@ -123,7 +123,7 @@ box-shadow: 1px -10px 0 0 var(--clr);
 .navigation ul li:nth-child(1).active ~ .indicator
 {
     transform: translateX(calc(70px * 0));
-    background:  radial-gradient(circle at 30% 107%, #FFDC5B 0%, #EECC40 5%, #D4AF37 45%, #9F8000 60%, #9F8000 90%)
+    background:  radial-gradient(circle at 30% 107%, #FFDC5B 0%, #EECC40 5%, #D4AF37 45%, #9F8000 60%, #9F8000 90%);
 }
 .navigation ul li:nth-child(2).active ~ .indicator
 {
@@ -139,12 +139,12 @@ box-shadow: 1px -10px 0 0 var(--clr);
 .navigation ul li:nth-child(4).active ~ .indicator
 {
     transform: translateX(calc(70px * 3));
-    background:  radial-gradient(circle at 30% 107%, #630001 0%, #8A0505 5%, #BF0202 45%, #EE0000 60%, #EE0000 90%)
+    background:  radial-gradient(circle at 30% 107%, #630001 0%, #8A0505 5%, #BF0202 45%, #EE0000 60%, #EE0000 90%);
 }
 
 .navigation ul li:nth-child(5).active ~ .indicator
 {
     transform: translateX(calc(70px * 4));
-    background:  radial-gradient(circle at 30% 107%, #F6E0C9 0%, #F6E0C9 5%, #F6E0C9 45%, #F6E0C9 60%, #F6E0C9 90%)
+    background:  radial-gradient(circle at 30% 107%, #F6E0C9 0%, #F6E0C9 5%, #F6E0C9 45%, #F6E0C9 60%, #F6E0C9 90%);
 }
 
