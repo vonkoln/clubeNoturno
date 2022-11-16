@@ -27,7 +27,7 @@ function openInNewTab(url) {
  })
 
 list[1].addEventListener('click', function(event) {
-   window.open('https://www.instagram.com/brunochapeco/')
+   window.open('https://www.instagram.com/tiagonoturno/')
 })
 
 list[2].addEventListener('click', function(event) {
@@ -39,5 +39,5 @@ list[3].addEventListener('click', function(event) {
 })
 
  list[4].addEventListener('click', function(event) {
-     alert('Clube Noturno: Whats 3183191984')
+     alert('Clube Noturno: Whatsapp 31989598126')
 })
