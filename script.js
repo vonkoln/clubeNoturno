@@ -39,5 +39,5 @@ list[3].addEventListener('click', function(event) {
 })
 
  list[4].addEventListener('click', function(event) {
-     alert('Clube Noturno: Whatsapp 31989598126')
+     alert('Nosso número 31989598126')
 })
