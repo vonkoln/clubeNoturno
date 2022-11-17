@@ -50,9 +50,7 @@ function escreverLinks(){
  
 
   var numero = Math.round(Math.random() * 2)
-  // document.write (
-  //   "<a href='" + links[numero] + "'>Visite o site do dia</a>"
-  // )
+ 
   document.head.append(
     '<meta property="og:image" content='+ links[numero] +'/>')
 }
@@ -60,3 +58,8 @@ function escreverLinks(){
 document.onload(function() {
   escreverLinks()
 })
+
+
+ // document.write (
+  //   "<a href='" + links[numero] + "'>Visite o site do dia</a>"
+  // )
