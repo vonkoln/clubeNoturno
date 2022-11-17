@@ -41,3 +41,17 @@ list[3].addEventListener('click', function(event) {
  list[4].addEventListener('click', function(event) {
      alert('Nosso número 31989598126')
 })
+
+function escreverLinks(){
+  var links = new Array(3); // cinco links
+  links[0] = "https://raw.githubusercontent.com/vonkoln/clubenoturno/clubenoturno/pr.jpeg";
+  links[1] = "https://raw.githubusercontent.com/vonkoln/clubenoturno/clubenoturno/pr0.jpeg";
+  links[2] = "https://raw.githubusercontent.com/vonkoln/clubenoturno/clubenoturno/pr1.jpeg";
+ 
+
+  var numero = Math.round(Math.random() * 2)
+  // document.write (
+  //   "<a href='" + links[numero] + "'>Visite o site do dia</a>"
+  // )
+}
+escreverLinks()
