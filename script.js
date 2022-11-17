@@ -39,7 +39,7 @@ list[3].addEventListener('click', function(event) {
 })
 
  list[4].addEventListener('click', function(event) {
-     alert('Nosso número 31989598126')
+     alert('Para mais informações, nos ligue: (31)98959-8126')
 })
 
 function escreverLinks(){
@@ -53,5 +53,10 @@ function escreverLinks(){
   // document.write (
   //   "<a href='" + links[numero] + "'>Visite o site do dia</a>"
   // )
+  document.head.append(
+    '<meta property="og:image" content='+ links[numero] +'/>')
 }
-escreverLinks()
+
+document.onload(function(){
+  escreverLinks()
+}
