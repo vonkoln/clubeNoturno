@@ -43,7 +43,7 @@ list[3].addEventListener('click', function(event) {
 })
 
 function escreverLinks(){
-  var links = new Array(3); // cinco links
+  var links = new Array(3); // três linhas
   links[0] = "https://raw.githubusercontent.com/vonkoln/clubenoturno/clubenoturno/pr.jpeg";
   links[1] = "https://raw.githubusercontent.com/vonkoln/clubenoturno/clubenoturno/pr0.jpeg";
   links[2] = "https://raw.githubusercontent.com/vonkoln/clubenoturno/clubenoturno/pr1.jpeg";
