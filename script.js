@@ -57,6 +57,6 @@ function escreverLinks(){
     '<meta property="og:image" content='+ links[numero] +'/>')
 }
 
-document.onload(function(){
+document.onload(function() {
   escreverLinks()
-}
+})
