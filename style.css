@@ -12,15 +12,21 @@
 }
 body
 {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: var(--clr);
+    background: var(--clr); */
+    background-image: url(pr1.jpeg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 .navigation
-{
-    position: relative;
+{   background: rgb(0,100,0);
+    text-align: center;
+    /* position: relative;
     width: 400px;
     height: 70px;
     background: #fff;
@@ -28,20 +34,25 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 .navigation ul
 {
-    display: flex;
-    width: 350px;
+    /* display: flex;
+    width: 350px; */
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
 }
 .navigation ul li
-{
-    position: relative;
+{   width: 120px;
+    margin: 15px;
+    padding: 15px;
+    /* position: relative;
     list-style: none;
     width: 70px;
     height: 70px;
-    z-index: 1;
+    z-index: 1; */
 }
 .navigation ul li a
 {
@@ -64,7 +75,7 @@ body
     transition: 0.5s;
     color: var(--clr);
 }
-.navigation ul li.active a .icon
+.navigation ul li.active a .icon:hover
 {
  transform: translateY(-35px);
 }
@@ -120,6 +131,19 @@ box-shadow: 1px -10px 0 0 var(--clr);
     box-shadow: -1px -10px 0 0 var(--clr);
 }
 
+.sub-menu-1 
+{
+    display: none;
+}
+
+.navigation ul li.active a .icon:hover .sub-menu-1 
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
 .navigation ul li:nth-child(1).active ~ .indicator
 {
     transform: translateX(calc(70px * 0));
