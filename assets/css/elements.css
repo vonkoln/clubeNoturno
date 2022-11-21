@@ -14,7 +14,7 @@ html
 
 @font-face 
 {
-    font-family:disney;
+    font-family:'disney';
     src: url(../fonts/Disney-Comic-Regular.ttf);
 }
 body
@@ -30,7 +30,7 @@ h1, h3, h4, h5, h6
 }
 h2
 {
-    font-family:disney;
+    font-family:'disney';
 }
 h1
 {

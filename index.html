@@ -18,18 +18,20 @@
         <meta name="twitter:site" content="@clubenoturno">
         <title>Clube Noturno</title>
         <!-- <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com"> -->
+        <link rel="icon" type="png" href="./assets/img/spade.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&family=Open+Sans:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/variables.css">
         <link rel="stylesheet" href="assets/css/elements.css">
         <link rel="stylesheet" href="assets/css/classes.css">
         <link rel="stylesheet" href="assets/css/menu.css">
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="./assets/js/scripts.js" defer></script>
     </head>
 
     <body>
         <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
-        <label class="close-menu-label" for="close-menu" title="Close menu"></label>
+        <label class="close-menu-label" for="close-menu" title="close menu"></label>
         <aside class="menu white-bg">
             <div class="main-content menu-content">
             <h1 onclick="getElementById('close-menu').checked = false">
@@ -157,8 +159,8 @@ Presença nos jogos live do clube: 50 pontos por pessoa.<br>
                 <div class="responsive-table">
                 <table>
                  <iframe src=
-                 "https://docs.google.com/spreadsheets/d/e/2PACX-1vSen22vnTelxrUxgzl5R6iH8JKOdkDhZcPAj8Vh2ZQP945GF5FczLUpwoP1pGH1oKP2nci2HqLL5_mL/pubhtml?gid=665643378&amp;single=true&amp;widget=true&amp;headers=false">
-                </iframe>
+                    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSen22vnTelxrUxgzl5R6iH8JKOdkDhZcPAj8Vh2ZQP945GF5FczLUpwoP1pGH1oKP2nci2HqLL5_mL/pubhtml?gid=665643378&amp;single=true&amp;widget=true&amp;headers=false">
+                 </iframe>
                 </table>
             </div>
         </section>
@@ -174,36 +176,10 @@ Presença nos jogos live do clube: 50 pontos por pessoa.<br>
             <div class="contact-form">
                 <fieldset class="form-grid">
                     <legend>Contato</legend>
-
-                    <!-- <div class="form-group">
-                        <label for="first-name">Primeiro nome</label>
-                        <input type="text" name="first-name" id="first-name" placeholder="Seu primeiro nome">
-                    </div>
-                    <div class="form-group">
-                        <label for="last-name">Sobrenome</label>
-                        <input type="text" name="last-name" id="last-name"placeholder="Seu sobrenome">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="Seu email">
-                    </div>
-                    <div class="form-group full-width">
-                        <label for="message">Mensagem</label>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem.."></textarea>
-                    </div>
-                    <div class="form-group full-width">
-                        <button type="submit">Enviar</button>
-                    </div> -->
-
+                    
                     <div class="form-group">
                         <form action="https://api.sheetmonkey.io/form/acuQdn5GVSTyVCM8iVpQEB" method="post">
-                            <div class="form-header">
-                                <!-- <div class="title">
-                                    <h1>Entre para o Clube Noturno</h1>
-                                </div> -->
-                               
-                            </div>
-            
+                           
                             <div class="input-group">
                                 <div class="input-box">
                                     <label for="firstname">Primeiro Nome</label>
@@ -223,18 +199,10 @@ Presença nos jogos live do clube: 50 pontos por pessoa.<br>
                                     <label for="number">Celular(Whatsapp)</label>
                                     <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
                                 </div>
-                                <!-- <div class="input-box">
-                                    <label for="nascimento">Data de Nascimento</label>
-                                    <input id="nascimento" type="date" name="nascimento" placeholder="dd / mm / aaaa" required>
-                                </div> -->
                                 
-            
-                            </div>
-            
-                            
-            
-                            <div class="continue-button">
-                                <button><a href="#">Enviar</a> </button>
+                                <div class="continue-button">
+                                    <button><a href="#">Enviar</a> </button>
+                                </div>
                             </div>
                         </form>
                     </div>
