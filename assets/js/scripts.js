@@ -11,7 +11,7 @@ const handleSubmit = (event) => {
 
     method: 'post',
     headers: {
-        'Accept': 'application/jason',
+        'Accept': 'application/json',
         'Content-Type': 'application/json',
     },
     body: JSON.stringify({ firstname, lastname, email, number, nascimento }),
