@@ -4,8 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif; */
+
 html
 {
     font-size: 62.5%;
@@ -28,10 +27,7 @@ h1, h3, h4, h5, h6
 {
     font-family:'Montserrat', sans-serif;
 }
-h2
-{
-    font-family:'disney';
-}
+
 h1
 {
     font-size: 4rem;
@@ -43,6 +39,7 @@ h2
     margin-bottom: 5rem;
     text-transform: uppercase;
     line-height: 1.2;
+    font-family:'disney';
 }
 h3
 {
@@ -106,4 +103,9 @@ iframe {
     width: 235px;
     height: 565px;
     resize: both;
+}
+
+#footer {
+font-size: 14px;
+font-family: ;
 }
