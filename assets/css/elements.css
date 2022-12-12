@@ -74,12 +74,14 @@ p
     overflow: hidden;
     overflow-x: auto;
 }
+
 table
 {
     min-width: 360px;
     width: 100%;
     border-collapse: collapse;
 }
+
 table caption
 {
     font-style: italic;
@@ -87,6 +89,7 @@ table caption
     text-align: left;
     margin-bottom: 1rem;
 }
+
 table td, table th
 {
     white-space: nowrap;
@@ -94,18 +97,26 @@ table td, table th
     text-align: left;
     border: 0.1rem solid var(--light-red-color);
 }
+
 tfoot td, table th
 {
     background: var(--light-red-color);
 }
-iframe {
+
+iframe 
+{
     border: none;
     width: 235px;
     height: 565px;
     resize: both;
 }
 
-#footer {
+#footer
+{
 font-size: 14px;
-font-family: ;
+}
+
+.continue-button 
+{
+padding: 1rem;
 }
