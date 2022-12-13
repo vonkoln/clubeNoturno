@@ -103,12 +103,35 @@ tfoot td, table th
     background: var(--light-red-color);
 }
 
-iframe 
+#planilha 
 {
+    align-self: center;
     border: none;
     width: 235px;
     height: 565px;
-    resize: both;
+   /* resize: both;
+    align-self: center;
+    overflow:hidden;
+    position: absolute; */
+    bottom:0px;
+    left:0;
+    right:0;
+ }
+
+#planilha iframe
+ {
+    width:100%;
+    height:100%;
+ }
+
+#race
+{
+    font-size: 14px;
+}
+
+.docs-gm
+{
+    font-family:'disney';
 }
 
 #footer

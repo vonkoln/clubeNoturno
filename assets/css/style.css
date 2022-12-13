@@ -66,8 +66,9 @@ margin-bottom: 1rem;
 }
 .grid h3::before
 {
-    counter-increment: grid-counter;
-    content: counter(grid-counter);
+    /* counter-increment: grid-counter;
+    content: counter(grid-counter); */
+    
     position: absolute;
     font-size: 8rem;
     font-style: italic;
@@ -75,6 +76,13 @@ margin-bottom: 1rem;
     left: -2rem;
     transform: rotate(5deg);
 }
+
+#grid-two
+{
+   font-size: 14px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .fotos-img
 {
     width: 100%;
@@ -82,16 +90,38 @@ margin-bottom: 1rem;
     max-height: 36rem;
     overflow: hidden;
 }
+
 .fotos-img img
 {
+    width: 100%;
     transition: all 300ms ease-in-out;
     
 }
+
 .fotos-img img:hover
 {
-    transform: translate(3%, 3%) scale(1.2) rotate(5deg);
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg); 
     
 }
+
+#casaCarlinhos
+{
+    width: 100%;
+    max-width: 36rem;
+    max-height: 36rem;
+    overflow: hidden;
+}
+
+#casaCarlinhos
+{
+    width: 100%;
+    transition: all 300ms ease-in-out;
+}
+#casaCarlinhos:hover
+{
+    transform: translate(3%, 3%) scale(1.2) rotate(5deg);
+}
+
 .contact-form
 {
     grid-column: span 2;
