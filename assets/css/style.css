@@ -6,12 +6,14 @@
     gap: var(gap);
     min-height: 100vh;
 }
+
 .intro-text-content, .intro-img
 {
 display: flex;
 flex-flow: column wrap;
 justify-content: center;
 }
+
 .intro-text-content h2
 {
     font-size: 6rem;
@@ -19,12 +21,29 @@ justify-content: center;
     text-transform: uppercase;
     line-height: 1.2;
 }
-.intro-img img
-.intro-img svg 
+
+.intro-text-content a
+{
+ color: var(--primary-color);
+}
+
+.intro-text-content a:hover
+{
+ color: var(--secondary-color);
+}
+
+/* .intro-img img
+.intro-img svg
 {
     max-width: 100%;
     height: auto;
+} */
+
+.intro-img a img
+{
+    padding: 20px;
 }
+
 .top3-content
 {
     max-width: 64rem;
@@ -35,6 +54,7 @@ justify-content: center;
     min-height: 100vh;
     text-align: center;
 }
+
 .grid-one-content
 {
     display: flex;
@@ -42,21 +62,31 @@ justify-content: center;
     justify-content: center;
     min-height: 100vh;
 }
+
 .grid-main-heading
 {
 margin-bottom: 1rem;
 }
+
 .grid-description
 {
     padding-bottom: 5rem;
 }
+
 .grid
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: var(--gap);
     counter-reset: grid-counter;
+    
 }
+
+ /* #grid-one, #grid-two
+{
+   
+} */
+
 .grid h3
 {
     font-size: 3rem;
@@ -64,11 +94,12 @@ margin-bottom: 1rem;
     padding-left: 5rem;
     padding-bottom: 2rem;
 }
+
 .grid h3::before
 {
     /* counter-increment: grid-counter;
     content: counter(grid-counter); */
-    
+
     position: absolute;
     font-size: 8rem;
     font-style: italic;
@@ -77,11 +108,7 @@ margin-bottom: 1rem;
     transform: rotate(5deg);
 }
 
-#grid-two
-{
-   font-size: 14px;
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 .fotos-img
 {
@@ -95,13 +122,13 @@ margin-bottom: 1rem;
 {
     width: 100%;
     transition: all 300ms ease-in-out;
-    
+
 }
 
 .fotos-img img:hover
 {
-    transform: translate(-3%, 3%) scale(1.2) rotate(5deg); 
-    
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+
 }
 
 #casaCarlinhos
@@ -117,6 +144,7 @@ margin-bottom: 1rem;
     width: 100%;
     transition: all 300ms ease-in-out;
 }
+
 #casaCarlinhos:hover
 {
     transform: translate(3%, 3%) scale(1.2) rotate(5deg);
@@ -126,6 +154,7 @@ margin-bottom: 1rem;
 {
     grid-column: span 2;
 }
+
 .contact-form .form-grid
 {
     border: none;
@@ -134,21 +163,25 @@ margin-bottom: 1rem;
     flex-wrap: wrap;
     gap: var(--gap);
 }
+
 .form-grid legend
 {
     font-style: italic;
     font-size: 1.6rem;
     margin-bottom: 3rem;
 }
+
 .form-group
 {
     flex: 1 1 32rem;
 }
+
 .form-group label
 {
     display: block;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
+
 .form-group input,
 .form-group textarea
 {
@@ -159,11 +192,13 @@ margin-bottom: 1rem;
     font-size: 3rem;
     outline: none;
 }
+
 .form-group input:focus,
 .form-group textarea:focus
 {
     box-shadow: 0px 0px 6px 1.2px var(--secondary-color);
 }
+
 .form-group button
 {
     border: 0.5rem solid var(--white-color);
@@ -173,38 +208,47 @@ margin-bottom: 1rem;
     cursor: pointer;
     transition: all 300ms ease-in-out;
 }
+
 .form-group button:hover
 {
     background: var(--white-color);
     color: var(--primary-color);
-  
+
 }
+
 .form-group ::placeholder
 {
     color: var(--light-red-color);
 }
+
 .footer
 {
     text-align: center;
     font-size: 1.6rem;
+    font-family: monospace;
 }
+
 .footer a
 {
-    color: var(--primary-color);
+    color: var(--black-color);
 }
+
 .spade
 {
     color: var(--black-color);
 }
+
 .footer p
 {
     margin: 0;
     padding: 3rem;
 }
+
 .close-menu
 {
     display: none;
 }
+
 .back-to-top
 {
     position: fixed;
@@ -220,6 +264,11 @@ margin-bottom: 1rem;
     color: var(--primary-color);
     transform: rotate(-90deg);
     border: 0.1rem solid var(--primary-color);
+}
+
+label
+{
+    cursor: pointer;
 }
 @media (max-width: 800px)
 {
@@ -237,7 +286,7 @@ margin-bottom: 1rem;
     {
         width: 100%;
     }
-    
+
     .grid-one-content
     {
         display: block;

@@ -109,10 +109,6 @@ tfoot td, table th
     border: none;
     width: 235px;
     height: 565px;
-   /* resize: both;
-    align-self: center;
-    overflow:hidden;
-    position: absolute; */
     bottom:0px;
     left:0;
     right:0;
