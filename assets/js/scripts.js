@@ -18,8 +18,8 @@ const handleSubmit = (event) => {
    });
 }
 
+const chk = document.getElementById('chk')
 
-
-
-
-
+chk.addEventListener('change', () => {
+    document.white-bg.classList.toggle('dark')
+})
